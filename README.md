@@ -1,7 +1,9 @@
 ### Gameboy without audio
 -Jacob Z
 
-To run this project, generate the bitstream for all design_source files. Next export to Vitis, build the software/hardware xsa, and program. Be sure to set the switches to their desired game to avoid corruption.
+This project was built in Xilinx Vivado and ran on the Spartan 7 FPGA Urbana Board.
+
+To run this project, generate the bitstream for all design_source files. Next export to Vitis, build the software/hardware xsa, and program. Be sure to set the switches to their desired game *before* programming to avoid corruption.
 
 The Gameboy contains 8 buttons, which were mapped to different keys on the keyboard:
 | Button | Key |
